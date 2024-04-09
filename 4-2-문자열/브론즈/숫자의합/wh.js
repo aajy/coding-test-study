@@ -1,4 +1,4 @@
-// 문제출처:
+// 문제출처: https://www.acmicpc.net/problem/11720
 const fs = require("fs");
 const file =
   process.platform === "linux" ? "dev/stdin" : "../../../input-wh.txt";
