@@ -1,14 +1,14 @@
-// https://www.acmicpc.net/problem/11720
-// dev/stdin
-// ./input.txt
+// 문제출처:
 const fs = require("fs");
-const file = process.platform === "linux" ? "dev/stdin" : "./input-wh.txt";
+const file =
+  process.platform === "linux" ? "dev/stdin" : "../../../input-wh.txt";
 const splitter = file ? "\n" : "\r\n";
 const input = fs.readFileSync(file).toString().trim().split(splitter);
 
 const length = Number(input[0]);
 const number = input[1];
 
+// https://www.acmicpc.net/problem/11720
 let answer = 0;
 for (let i = 0; i < length; i++) {
   answer += Number(number[i]);
