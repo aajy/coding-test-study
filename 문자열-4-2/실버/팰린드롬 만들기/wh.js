@@ -15,3 +15,5 @@ inputArr.forEach((el) => {
 });
 
 console.log(table);
+
+// 개수를 통해 규칙찾기
