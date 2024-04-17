@@ -1,9 +1,4 @@
-console.log(1);
-
-console.log(2);
-
-const promise = new Promise(() => {
-  console.log(3);
-});
-
-console.log(4);
+/* 
+  오버로딩은 이름은 같지만 시그니쳐가 다른 함수를 만들어서 사용하는 것
+  오버라이딩은 상속관계에서 자식클래스에서 부모클래스의 메소드와 시그니처가 같은 메소드를 만드는 것
+*/
